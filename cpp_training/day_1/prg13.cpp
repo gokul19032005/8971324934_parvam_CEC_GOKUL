@@ -15,7 +15,6 @@ int main() {
     cin >> rate;
     cout << "Enter Time (in years): ";
     cin >> time;
-
     switch (choice) {
         case 1:
             interest = (principal * rate * time) / 100;
